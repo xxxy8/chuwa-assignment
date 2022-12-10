@@ -1,0 +1,63 @@
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1.6px solid black;
+  font: sans-serif;
+}
+td {
+  text-align: center;
+}
+
+td,
+.td1,
+.td2,
+.td3,
+.td4 th {
+  border: 1.6 px solid black;
+  padding: 5px;
+  margin: 0 0px 0 0;
+  border: 1.6px solid black;
+}
+.td1,
+.td2,
+.t3 {
+  width: 100px;
+}
+
+.td4 {
+  width: 300px;
+}
+.div1 {
+  margin: 30px;
+  border: 0px;
+  padding: 0px;
+  margin-top: 0;
+  margin-left: 0;
+}
+.div2 {
+  margin: 10px;
+  border: 0px;
+  padding: 0px;
+  margin-top: 0;
+  margin-left: 0;
+}
+span {
+  text-align: center;
+  line-height: 18px;
+}
+input {
+  width: 635px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 30px;
+  border-collapse: collapse;
+  border: 1.5px solid #e6e6e6;
+}
+
+input::placeholder {
+  color: gray;
+  font-family: sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
